@@ -2,14 +2,39 @@ body {
     background-color: #fcdb00;
 }
 
+.container {
+    border: 3px solid #A23E48;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .logo {
     display: inline;
 }
 
 .logo_container {
-    display: inline;
+    background-color: lightblue;
 }
 
-.taps_container {
-    display: inline;
+.tabs_container {
+    background-color: #F5F9E9;
+}
+
+.container_display {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    border: 2px solid #474647;
+}
+
+.tabs_container > a + a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px 0px 40px;
+}
+
+.tabs_container > a {
+    text-decoration: none;
+    color: black;
 }
