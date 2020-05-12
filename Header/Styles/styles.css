@@ -3,29 +3,37 @@ body {
 }
 
 .container {
-    border: 3px solid #A23E48;
+    /*border: 3px solid #A23E48;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family:'PT Sans', sans-serif;
+    font-weight: bold;
+    max-width: 992px;
+    margin: 20px auto;
 }
 
 .logo {
     display: inline;
+    margin: 0px 0px 0px 10px;
 }
 
-.logo_container {
-    background-color: lightblue;
-}
+/*
+//Background colors to paint content boxes
+*/
+/*.logo_container {
+    background-color: rgb(225, 231, 233);
+}*/
 
-.tabs_container {
+/*.tabs_container {
     background-color: #F5F9E9;
-}
+}*/
 
 .container_display {
     display: flex;
     flex-direction: row;
     align-items: center; 
-    border: 2px solid #474647;
+    /*border: 2px solid #474647;*/
 }
 
 .tabs_container > a + a {
